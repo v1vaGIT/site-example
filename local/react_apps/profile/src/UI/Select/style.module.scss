@@ -1,0 +1,100 @@
+.selectContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    min-height: 44px;
+    max-height: 44px;
+
+    .fieldName {
+        font-size: 12px;
+        line-height: 13px;
+        font-weight: 500;
+    }
+
+    .selectLabelButton {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 32px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid #b6b6b6;
+
+        color: #2E2E2E;
+        font-size: 14px;
+        cursor: pointer;
+        transition: border-bottom-color 0.2s linear;
+
+        &.placeholder {
+            color: #b6b6b6;
+            font-size: 12px;
+            white-space: nowrap;
+        }
+
+        svg {
+            transition: transform 0.2s linear;
+
+            path {
+                transition: stroke 0.2s linear;
+            }
+        }
+
+        &.buttonOpen svg {
+            transform: rotate(-180deg);
+        }
+
+        &:hover, &.buttonOpen {
+            border-bottom: 1px solid #2E2E2E;
+
+            svg path {
+                stroke: #ef4634;
+            }
+        }
+
+        .dropdownStyle {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            border: 1px solid #2F2F2F;
+            background: #fff;
+            transition: max-height 0.2s ease;
+            overflow: auto;
+
+            &.dropdownStyleHidden {
+                max-height: 40px;
+                visibility: hidden;
+            }
+
+            .dropdownItem {
+                display: flex;
+                padding: 13px 23px 12px;
+                color: #878787;
+                font-size: 14px;
+                cursor: pointer;
+
+                &:not(:last-child) {
+                    border-bottom: 1px solid #F3F3F3
+                }
+
+                &.dropdownItemActive {
+                    color: #2F2F2F;
+                    border-color: #2F2F2F;
+                }
+
+                &:hover, :focus, :focus:hover {
+                    color: #2F2F2F;
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    .error {
+        color: #ef4634;
+    }
+}

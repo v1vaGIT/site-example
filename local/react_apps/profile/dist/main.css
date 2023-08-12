@@ -1,0 +1,761 @@
+/*!**********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/index.module.scss ***!
+  \**********************************************************************************************************************************************************/
+.appWrapper__DLK1Q {
+  overflow-x: hidden;
+  font-family: Montserrat, sans-serif;
+  color: #2E2E2E;
+}
+/*!*********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/UI/Profile/ProfileTitle/styles.module.scss ***!
+  \*********************************************************************************************************************************************************************/
+.profileTitle__v1x9c {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+}
+.profileTitle__v1x9c .text__P60Or {
+  color: #2E2E2E;
+  font-family: Geometria, sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+}
+@media (max-width: 575px) {
+  .profileTitle__v1x9c .text__P60Or {
+    font-size: 24px;
+  }
+}
+.profileTitle__v1x9c button {
+  padding: 9px 14px;
+}
+/*!******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/UI/Button/style.module.scss ***!
+  \******************************************************************************************************************************************************/
+.button__M433l {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 17px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+.button__M433l:disabled {
+  cursor: initial;
+}
+.button__M433l.greyColor__XEQvJ {
+  background-color: #F3F3F3;
+}
+.button__M433l.active__Qwvoa {
+  background-color: #ef4634;
+  color: #ffffff;
+}
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/Profile/Layout/Header/styles.module.scss ***!
+  \******************************************************************************************************************************************************************************/
+.mainSections__oUeTM {
+  position: relative;
+  display: flex;
+  gap: 8px;
+  height: fit-content;
+  margin-top: 25px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.mainSections__oUeTM::-webkit-scrollbar {
+  display: none;
+}
+.mainSections__oUeTM .sectionLink__jWNQb {
+  border-radius: 17px;
+  background: #F6F6F6;
+  padding: 9px 14px;
+  border: unset;
+  color: #2E2E2E;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+  white-space: nowrap;
+  scroll-snap-align: start;
+}
+.mainSections__oUeTM .sectionLink__jWNQb.linkActive__s4tKr {
+  background: linear-gradient(312deg, #FFE3E3 0%, #EFEDFF 100%);
+}
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/Profile/SectionLayout/SectionTabs/styles.module.scss ***!
+  \******************************************************************************************************************************************************************************************/
+.container__tjaD9 {
+  position: relative;
+  display: flex;
+  gap: 26px;
+  height: fit-content;
+  margin-top: 30px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.container__tjaD9::-webkit-scrollbar {
+  display: none;
+}
+.container__tjaD9 .link__LLCge {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  border: unset;
+  background: none;
+  color: #2E2E2E;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+  transition: color 0.3s;
+  white-space: nowrap;
+  scroll-snap-align: start;
+}
+.container__tjaD9 .link__LLCge svg path {
+  transition: fill 0.3s;
+}
+.container__tjaD9 .link__LLCge.linkActive__XIlNM {
+  color: #EF4136;
+}
+.container__tjaD9 .link__LLCge.linkActive__XIlNM svg path {
+  fill: #EF4136;
+}
+/*!********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/pages/profile/MyProfile/style.module.scss ***!
+  \********************************************************************************************************************************************************************/
+.myProfile__Cyt7o {
+  max-width: 872px;
+  width: 100%;
+  margin-top: 18px;
+  color: #2E2E2E;
+  font-size: 12px;
+  line-height: 13px;
+}
+
+.form__VMceI {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 26px;
+  border-radius: 23px;
+  background-color: #F6F6F6;
+}
+.form__VMceI .fieldSet__UKY3w {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+.form__VMceI .fieldSet__UKY3w .field__SCa1C {
+  flex: 30% 1 1;
+}
+.form__VMceI .fieldSet__UKY3w .fieldContainer__tN40J {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.form__VMceI .fieldSet__UKY3w .fieldContainer__tN40J input {
+  padding-bottom: 4px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 14px;
+  border-bottom: 1px solid #B6B6B6;
+  transition: border-bottom-color 0.2s linear;
+}
+.form__VMceI .fieldSet__UKY3w .fieldContainer__tN40J input::placeholder {
+  color: #B6B6B6;
+  font-size: 12px;
+}
+.form__VMceI .fieldSet__UKY3w .fieldContainer__tN40J input:focus {
+  border-bottom: 1px solid #2E2E2E;
+}
+.form__VMceI .fieldSet__UKY3w .fieldContainer__tN40J .error__mSqqY {
+  color: red;
+}
+.form__VMceI .fieldAgreement__OUGuQ {
+  margin-top: 55px;
+}
+.form__VMceI .buttons__RU8Nm {
+  align-self: flex-start;
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+.form__VMceI .buttons__RU8Nm button {
+  height: 33px;
+}
+
+@media (max-width: 575px) {
+  .form__VMceI {
+    padding: 26px 16px;
+  }
+  .form__VMceI .fieldSet__UKY3w {
+    gap: 16px;
+  }
+  .form__VMceI .fieldAgreement__OUGuQ {
+    margin-top: 24px;
+  }
+  .form__VMceI .buttons__RU8Nm {
+    flex-direction: column;
+    justify-content: center;
+    margin: 26px auto 0;
+    gap: 16px;
+  }
+}
+/*!********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/UI/Checkbox/style.module.scss ***!
+  \********************************************************************************************************************************************************/
+.checkboxLabel__SGx8V > input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.checkboxLabel__SGx8V > input:not(.checkboxLabel__SGx8V > input:disabled) + span {
+  cursor: pointer;
+}
+
+.checkboxLabel__SGx8V > span {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.checkboxLabel__SGx8V > span svg {
+  position: absolute;
+  left: 4px;
+}
+
+.checkboxLabel__SGx8V > span::before {
+  content: "";
+  display: inline-block;
+  min-width: 18px;
+  min-height: 18px;
+  border: 1px solid #2E2E2E;
+  border-radius: 4px;
+  margin-right: 8px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: background-color 0.2s linear;
+}
+
+.checkboxLabel__SGx8V > input:checked + span::before {
+  background-color: #2E2E2E;
+}
+/*!*********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/UI/InputText/style.module.scss ***!
+  \*********************************************************************************************************************************************************/
+.inputFieldContainer__LSWam {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.inputFieldContainer__LSWam .fieldName__C0Jho {
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: 500;
+}
+.inputFieldContainer__LSWam .inputField__EqUuM {
+  padding-bottom: 4px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 14px;
+  border-bottom: 1px solid #B6B6B6;
+  transition: border-bottom-color 0.2s linear;
+}
+.inputFieldContainer__LSWam .inputField__EqUuM.inputFieldError__KA4MH {
+  border-color: #ef4634;
+}
+.inputFieldContainer__LSWam .inputField__EqUuM::placeholder {
+  color: #B6B6B6;
+  font-size: 12px;
+}
+.inputFieldContainer__LSWam .inputField__EqUuM:focus:not(.inputFieldError__KA4MH) {
+  border-bottom: 1px solid #2E2E2E;
+}
+.inputFieldContainer__LSWam .error__SBdlz {
+  font-size: 12px;
+  color: #ef4634;
+}
+/*!************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/Profile/UserInfo/style.module.scss ***!
+  \************************************************************************************************************************************************************************/
+.userInfoContainer__dlrQL {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  max-width: 872px;
+  width: 100%;
+  margin-top: 18px;
+  color: #2E2E2E;
+  font-size: 12px;
+  line-height: 13px;
+  padding: 26px;
+  border-radius: 23px;
+  background-color: #F6F6F6;
+}
+.userInfoContainer__dlrQL .infoList__rGBuQ {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.userInfoContainer__dlrQL .infoList__rGBuQ .notify__B2UXv {
+  font-size: 14px;
+  line-height: 16px;
+}
+.userInfoContainer__dlrQL .infoList__rGBuQ .infoItem__Dm31L {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 26px;
+}
+.userInfoContainer__dlrQL .infoList__rGBuQ .infoItem__Dm31L .infoText__NglEs {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: #303030;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 7px;
+}
+.userInfoContainer__dlrQL .infoList__rGBuQ .infoItem__Dm31L .infoText__NglEs img {
+  position: relative;
+  top: -6px;
+  width: 21px;
+  height: 21px;
+}
+.userInfoContainer__dlrQL .infoList__rGBuQ .infoItem__Dm31L .buttonsContainer__d_36e {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #F04634;
+  font-size: 14px;
+  line-height: 16px;
+}
+.userInfoContainer__dlrQL .infoList__rGBuQ .infoItem__Dm31L .buttonsContainer__d_36e .button__kVvUO {
+  cursor: pointer;
+}
+.userInfoContainer__dlrQL .buttonWrapper__NJ0fj {
+  align-self: flex-start;
+}
+
+@media (max-width: 575px) {
+  .userInfoContainer__dlrQL {
+    padding: 26px 16px;
+  }
+  .userInfoContainer__dlrQL .infoList__rGBuQ {
+    gap: 26px;
+  }
+  .userInfoContainer__dlrQL .infoList__rGBuQ .infoItem__Dm31L {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .userInfoContainer__dlrQL .infoList__rGBuQ .infoItem__Dm31L .infoText__NglEs {
+    gap: 6px;
+  }
+  .userInfoContainer__dlrQL .buttonWrapper__NJ0fj {
+    align-self: center;
+  }
+}
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/Profile/modals/AddAddressModal/style.module.scss ***!
+  \**************************************************************************************************************************************************************************************/
+.modalWrapper__ox75J {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 201;
+  overflow-y: auto;
+}
+
+.modalHeader__WT3QE .modalTitle__wnuF9 {
+  text-align: center;
+  color: #2E2E2E;
+  font-size: 20px;
+  font-weight: 800;
+}
+.modalHeader__WT3QE .closeButton__yof_C {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.modal__en85G {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  width: 100%;
+  max-width: 377px;
+  padding: 20px 46px 26px;
+  border-radius: 23px;
+  border: 1px solid #F0F0F0;
+  background: #fff;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
+}
+.modal__en85G .fieldSet__NtDGY {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+.modal__en85G .fieldSet__NtDGY .field__wAYVv {
+  flex: 30% 1 1;
+}
+.modal__en85G .fieldSet__NtDGY .fieldsGroup__PhY6f {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.modal__en85G .fieldSet__NtDGY .fieldsGroup__PhY6f .field__wAYVv {
+  flex: 1;
+  max-width: calc((100% - 60px) / 4);
+}
+
+@media (max-width: 575px) {
+  .modalHeader__WT3QE .modalTitle__wnuF9 {
+    font-size: 16px;
+    margin: 0 64px;
+  }
+  .modal__en85G {
+    gap: 26px;
+    padding: 16px 16px 26px;
+  }
+  .modal__en85G .fieldSet__NtDGY {
+    gap: 16px;
+  }
+  .modal__en85G .fieldSet__NtDGY .field__wAYVv {
+    flex: 30% 1 1;
+  }
+  .modal__en85G .fieldSet__NtDGY .fieldsGroup__PhY6f {
+    flex-wrap: wrap;
+    gap: 16px 26px;
+  }
+  .modal__en85G .fieldSet__NtDGY .fieldsGroup__PhY6f .field__wAYVv {
+    max-width: calc((100% - 52px) / 3);
+  }
+}
+/*!******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/UI/Select/style.module.scss ***!
+  \******************************************************************************************************************************************************/
+.selectContainer__DfeUl {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  min-height: 44px;
+  max-height: 44px;
+}
+.selectContainer__DfeUl .fieldName__Xx2Ua {
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: 500;
+}
+.selectContainer__DfeUl .selectLabelButton__SlX98 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #b6b6b6;
+  color: #2E2E2E;
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-bottom-color 0.2s linear;
+}
+.selectContainer__DfeUl .selectLabelButton__SlX98.placeholder__WeMQ8 {
+  color: #b6b6b6;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.selectContainer__DfeUl .selectLabelButton__SlX98 svg {
+  transition: transform 0.2s linear;
+}
+.selectContainer__DfeUl .selectLabelButton__SlX98 svg path {
+  transition: stroke 0.2s linear;
+}
+.selectContainer__DfeUl .selectLabelButton__SlX98.buttonOpen__dNLm9 svg {
+  transform: rotate(-180deg);
+}
+.selectContainer__DfeUl .selectLabelButton__SlX98:hover, .selectContainer__DfeUl .selectLabelButton__SlX98.buttonOpen__dNLm9 {
+  border-bottom: 1px solid #2E2E2E;
+}
+.selectContainer__DfeUl .selectLabelButton__SlX98:hover svg path, .selectContainer__DfeUl .selectLabelButton__SlX98.buttonOpen__dNLm9 svg path {
+  stroke: #ef4634;
+}
+.selectContainer__DfeUl .selectLabelButton__SlX98 .dropdownStyle__H78Yo {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #2F2F2F;
+  background: #fff;
+  transition: max-height 0.2s ease;
+  overflow: auto;
+}
+.selectContainer__DfeUl .selectLabelButton__SlX98 .dropdownStyle__H78Yo.dropdownStyleHidden__tgzWV {
+  max-height: 40px;
+  visibility: hidden;
+}
+.selectContainer__DfeUl .selectLabelButton__SlX98 .dropdownStyle__H78Yo .dropdownItem__ujrY5 {
+  display: flex;
+  padding: 13px 23px 12px;
+  color: #878787;
+  font-size: 14px;
+  cursor: pointer;
+}
+.selectContainer__DfeUl .selectLabelButton__SlX98 .dropdownStyle__H78Yo .dropdownItem__ujrY5:not(:last-child) {
+  border-bottom: 1px solid #F3F3F3;
+}
+.selectContainer__DfeUl .selectLabelButton__SlX98 .dropdownStyle__H78Yo .dropdownItem__ujrY5.dropdownItemActive__uh4Ij {
+  color: #2F2F2F;
+  border-color: #2F2F2F;
+}
+.selectContainer__DfeUl .selectLabelButton__SlX98 .dropdownStyle__H78Yo .dropdownItem__ujrY5:hover, .selectContainer__DfeUl .selectLabelButton__SlX98 .dropdownStyle__H78Yo .dropdownItem__ujrY5 :focus, .selectContainer__DfeUl .selectLabelButton__SlX98 .dropdownStyle__H78Yo .dropdownItem__ujrY5 :focus:hover {
+  color: #2F2F2F;
+  outline: none;
+}
+.selectContainer__DfeUl .error__M8j70 {
+  color: #ef4634;
+}
+/*!********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/UI/Textarea/style.module.scss ***!
+  \********************************************************************************************************************************************************/
+.textareaContainer__QfAKR {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.textareaContainer__QfAKR .fieldName__Ahs16 {
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: 500;
+}
+.textareaContainer__QfAKR textarea {
+  resize: none;
+  width: 100%;
+  height: 126px;
+  padding: 13px 18px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  background-color: #F6F6F6;
+  font-size: 14px;
+}
+.textareaContainer__QfAKR textarea::placeholder {
+  color: #B7B7B7;
+}
+.textareaContainer__QfAKR .error__rKSJu {
+  color: #ef4634;
+}
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/Profile/modals/DeleteAddressModal/style.module.scss ***!
+  \*****************************************************************************************************************************************************************************************/
+.modalWrapper__pROPq {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 201;
+  overflow-y: auto;
+}
+
+.modal__qpWss {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  width: 100%;
+  max-width: 377px;
+  padding: 16px 16px 26px;
+  border-radius: 23px;
+  border: 1px solid #F0F0F0;
+  background: #fff;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
+}
+.modal__qpWss .addressText__vrzcR {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #2E2E2E;
+}
+
+.modalHeader__Bw7kv .modalTitle__wHcXh {
+  text-align: center;
+  color: #2E2E2E;
+  font-size: 20px;
+  font-weight: 800;
+}
+.modalHeader__Bw7kv .closeButton__ZYpjV {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.modalBody__VOp0J {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.addressWrapper__fyTDo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 16px 26px;
+  border-radius: 12px;
+  background: linear-gradient(312deg, #FFE3E3 0%, #EFEDFF 100%);
+}
+
+.buttonsWrapper__vy7fB {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.buttonsWrapper__vy7fB button:first-child {
+  padding: 9px 25px;
+}
+
+@media (max-width: 575px) {
+  .modalHeader__Bw7kv .modalTitle__wHcXh {
+    font-size: 16px;
+    margin: 0 32px;
+  }
+  .modal__qpWss {
+    gap: 26px;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/Profile/modals/ChangeAddressModal/style.module.scss ***!
+  \*****************************************************************************************************************************************************************************************/
+.modalWrapper__lK3fm {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 201;
+  overflow-y: auto;
+}
+
+.modalHeader__ypSQ8 .modalTitle__ebM50 {
+  text-align: center;
+  color: #2E2E2E;
+  font-size: 20px;
+  font-weight: 800;
+}
+.modalHeader__ypSQ8 .closeButton__j23qF {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.modal__YbTa4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  width: 100%;
+  max-width: 377px;
+  padding: 20px 46px 26px;
+  border-radius: 23px;
+  border: 1px solid #F0F0F0;
+  background: #fff;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.06);
+}
+.modal__YbTa4 .fieldSet__iW5ru {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+.modal__YbTa4 .fieldSet__iW5ru .field__pTdrC {
+  flex: 30% 1 1;
+}
+.modal__YbTa4 .fieldSet__iW5ru .fieldsGroup__D3WgZ {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.modal__YbTa4 .fieldSet__iW5ru .fieldsGroup__D3WgZ .field__pTdrC {
+  flex: 1;
+  max-width: calc((100% - 60px) / 4);
+}
+
+@media (max-width: 575px) {
+  .modalHeader__ypSQ8 .modalTitle__ebM50 {
+    font-size: 16px;
+    margin: 0 64px;
+  }
+  .modal__YbTa4 {
+    gap: 26px;
+    padding: 16px 16px 26px;
+  }
+  .modal__YbTa4 .fieldSet__iW5ru {
+    gap: 16px;
+  }
+  .modal__YbTa4 .fieldSet__iW5ru .field__pTdrC {
+    flex: 30% 1 1;
+  }
+  .modal__YbTa4 .fieldSet__iW5ru .fieldsGroup__D3WgZ {
+    flex-wrap: wrap;
+    gap: 16px 26px;
+  }
+  .modal__YbTa4 .fieldSet__iW5ru .fieldsGroup__D3WgZ .field__pTdrC {
+    max-width: calc((100% - 52px) / 3);
+  }
+}
+
+/*# sourceMappingURL=main.css.map*/

@@ -1,0 +1,48 @@
+@import "src/assets/styles/variables";
+
+.container {
+    position: relative;
+    display: flex;
+    gap: 26px;
+    height: fit-content;
+    margin-top: 30px;
+
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    .link {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        border: unset;
+        background: none;
+        color: #2E2E2E;
+        font-family: Montserrat, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        text-decoration: none;
+        transition: color $animation;
+        white-space: nowrap;
+
+        scroll-snap-align: start;
+
+        & svg path {
+            transition: fill $animation;
+        }
+
+        &.linkActive {
+            color: $orange;
+
+            & svg path {
+                fill: $orange;
+            }
+        }
+    }
+}

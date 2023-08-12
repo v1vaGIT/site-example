@@ -1,0 +1,36 @@
+.mainSections {
+    position: relative;
+    display: flex;
+    gap: 8px;
+    height: fit-content;
+    margin-top: 25px;
+
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    .sectionLink {
+        border-radius: 17px;
+        background: #F6F6F6;
+        padding: 9px 14px;
+        border: unset;
+
+        color: #2E2E2E;
+        font-family: Montserrat, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        text-decoration: none;
+        white-space: nowrap;
+
+        scroll-snap-align: start;
+
+        &.linkActive {
+            background: linear-gradient(312deg, #FFE3E3 0%, #EFEDFF 100%);
+        }
+    }
+}

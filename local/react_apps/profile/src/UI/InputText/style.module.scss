@@ -1,0 +1,41 @@
+@import '../../assets/styles/variables';
+
+.inputFieldContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .fieldName {
+        font-size: 12px;
+        line-height: 13px;
+        font-weight: 500;
+    }
+
+    .inputField {
+        padding-bottom: 4px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: 14px;
+        border-bottom: 1px solid #B6B6B6;
+        transition: border-bottom-color 0.2s linear;
+
+        &.inputFieldError {
+            border-color: #ef4634;
+        }
+
+        &::placeholder {
+            color: #B6B6B6;
+            font-size: 12px;
+        }
+
+        &:focus:not(.inputFieldError) {
+            border-bottom: 1px solid #2E2E2E;
+        }
+    }
+
+    .error {
+        font-size: 12px;
+        color: #ef4634;
+    }
+}

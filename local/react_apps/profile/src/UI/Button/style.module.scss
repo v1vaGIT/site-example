@@ -1,0 +1,29 @@
+@import '../../assets/styles/variables';
+
+.button {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    border-radius: 17px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    line-height: 16px;
+    white-space: nowrap;
+
+    &:disabled {
+        cursor: initial;
+    }
+
+    &.greyColor {
+        background-color: $grey;
+    }
+
+    &.active {
+        background-color: #ef4634;
+        color: $white;
+    }
+}
